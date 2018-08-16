@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <p><h1>Lorem ipsum<br>dolor sit amet</h1></p>
+    <p><h2>Chapter 1</h2></p>
+    <p><h3>Part 1</h3></p>
+
+    <p><b>Lorem ipsum</b> dolor sit amet, consectetuer adipiscing elit, 
+    sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat 
+    volutpat. <b>Ut wisis</b> enim ad minim veniam, quis nostrud exerci 
+    tution ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+
+    <p style="text-align: left">
+        <button>
+        <a href= '{{url_for('index') }}'>Home</a>
+        </button>
+    </p>
+
+    {% endblock %}
