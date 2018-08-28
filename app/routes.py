@@ -43,4 +43,4 @@ def login():
 
 @app.route('/test')
 def test():
-    return render_template('test.html')
+    return render_template('test.html',title = 'Test')
